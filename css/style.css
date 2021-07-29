@@ -1,0 +1,34 @@
+
+.my-bg-color{
+    background-color: #FFFFFF;
+}
+
+.header-bg{
+    background-color: #264653;
+}
+
+.my-button{
+    background-color: #E76F51;
+}
+
+.my-text{
+    text-align: justify;
+}
+
+hr{
+    width: 58.5px;
+    border: 1px solid #E76F51;
+    margin: auto;
+}
+
+h1{
+    font-weight: 700;
+}
+
+h1 span{
+    color: #E76F51;
+}
+
+.bike-grayscale img{
+    filter: grayscale(100%);
+}

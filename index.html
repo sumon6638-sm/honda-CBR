@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome for icon -->
+    <script src="https://kit.fontawesome.com/1ef8004415.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- Custom CSS which is created by me -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Bike Gallery</title>
+</head>
+
+<body>
+    <!-- header section starting -->
+    <header>
+        <!-- navbar section starting -->
+        <div class="mb-5">
+            <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light fixed-top header-bg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center fw-bold">
+                            <li class="nav-item me-2">
+                                <a class="nav-link active text-light fw-normal" aria-current="page" href="#home">Home</a>
+                            </li>
+            
+                            <li class="nav-item me-2">
+                                <a class="nav-link active text-light fw-normal" aria-current="page" href="#shoe">Product</a>
+                            </li>
+            
+                            <li class="nav-item me-2">
+                                <a class="nav-link active text-light fw-normal" aria-current="page" href="#backpack">About us</a>
+                            </li>
+            
+                            <li class="nav-item">
+                                <a class="nav-link active text-light fw-normal" aria-current="page" href="#subscribe">Contact us</a>
+                            </li>
+                        </ul>
+
+                        <button class="btn btn-danger ms-5 my-button">Login</button>
+
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- navbar seciton end -->
+
+        <!-- header content section starting -->
+        <div class="header-bg">
+            <div class="container align-items-center justify-content-between">
+                <div class="row justify-content-between align-items-center">
+                    <div class="justify-content-center mt-5 text-light col-lg-6 col-md-12 col-sm-12">
+                        <p>Computer-controlled digital transistorized with electronic advance</p>
+                        <h1>Honda CBR 300R</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                            velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    
+                        <!-- popup button starting -->
+                        <div class="popup-button">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger my-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                About CBR 300R
+                            </button>
+                    
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-dark" id="staticBackdropLabel">This is CBR 300R</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="text-dark my-text">If you’ve got a soft spot for sportbike design and Grand Prix
+                                                stylings, then the 2021 Honda CBR300R is your sweet spot
+                                                between form and function. It’s narrow, light, and a total blast to ride around town and on
+                                                twisty back roads. The
+                                                single-cylinder engine offers great fuel economy, with smooth and friendly torque delivery.
+                                                And the affordable cost and
+                                                responsive handling makes it a terrific bike for first-time riders, and for those looking to
+                                                grow their garage. There’s
+                                                even a version available with our anti-lock braking system. Plus, this year the CBR300R
+                                                brings hot new graphics in two
+                                                color choices. Time to get riding!</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://images.app.goo.gl/yHQEr9k15bzSGkU77" target="_blank"><button
+                                                    class="btn btn-primary">View more</button></a>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- popup button end -->
+                    </div>
+                    
+                    <div class="justify-content-center col-lg-6 col-md-12 col-sm-12">
+                        <img class="img-fluid" src="img/header-bike.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- main section starting -->
+    <main>
+        <!-- Section of Featured Bike -->
+        <section class="fetured-bikes my-bg-color my-5">
+            <div class="container text-center">
+                <h1>Fetured Bikes 2021</h1>
+                <p class="text-danger">Best bike collection</p>
+                <hr>
+                
+                <div class="row row-cols-1 col-sm-12 row-cols-md-2 row-cols-lg-3 justify-content-between mt-5">
+                    <div class="bike-grayscale">
+                        <img class="img-fluid" src="img/feature-bike.jpg" width="288px" alt="">
+                    </div>
+                    <div class="bike">
+                        <img class="img-fluid" src="img/feature-bike.jpg" width="288px" alt="">
+                    </div>
+                    <div class="bike-grayscale">
+                        <img class="img-fluid" src="img/feature-bike.jpg" width="288px" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section of Latest News about Bike -->
+        <section class="latest-news my-bg-color my-5">
+            <div class="container">
+                <h1 class="text-center">Latest News</h1>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 col-sm-12 g-4 my-3">
+                    <div class="col">
+                        <div class="card h-100 pb-3 rounded-3 shadow p-3 border-0">
+                            <img src="img/bike-1.png" class="card-img-top img-fluid rounded-3"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                                <p class="card-text">The new sports version, the Black Star, and the matt black total look version, the XDiavel Dark, further enhance the
+                                strengths of the XDiavel.</p>
+                                <button type="button" class="btn btn-outline-primary">Read More</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                    <div class="col">
+                        <div class="card h-100 pb-3 rounded-3 shadow p-3 border-0">
+                            <img src="img/bike-2.png" class="card-img-top img-fluid rounded-3"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Motorcycles & Scooters</h5>
+                                <p class="card-text">We are good at starting you off on bikes and scooters. You will not find us as a big scary bike shop.</p>
+                                <button type="button" class="btn btn-outline-primary">Read More</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+                    <div class="col">
+                        <div class="card h-100 pb-3 rounded-3 shadow p-3 border-0">
+                            <img src="img/bike-3.png" class="card-img-top img-fluid rounded-3"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">2021 Honda CBR500R</h5>
+                                <p class="card-text">Is it any wonder why the Honda CBR500R is one of our most popular sportbikes? It just gets so many things right.</p>
+                                <button type="button" class="btn btn-outline-primary">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Happy Client Section -->
+        <section class="happy-client text-center my-bg-color my-5">
+            <div class="container">
+                <h1 class="my-5">Happy <span>Clientes Says</span></h1>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 col-sm-12 my-4">
+                    <div class="col">
+                        <div class="card h-100 pb-3 rounded-3 shadow py-3">
+                            <div>
+                                <img class="img-fluid" src="img/user-1.png" width="149px" height="149px" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Jhonsen Churosoe</h5>
+                                <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            </div>
+                            <div style="color: #E77C40;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a href="#" class="text-primary fw-bold" style="text-decoration: none;">South Korea</a>
+                            <h6>Freelancer</h6>
+
+                        </div>
+                    </div>
+                
+                    <div class="col">
+                        <div class="card h-100 pb-3 rounded-3 shadow py-3">
+                            <div>
+                                <img class="img-fluid" src="img/user-2.png" width="149px" height="149px" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Martilina Gr</h5>
+                                <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            </div>
+                            <div style="color: #E77C40;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a href="#" class="text-primary fw-bold" style="text-decoration: none;">America</a>
+                            <h6>Entrepreneur</h6>
+                        </div>
+                    </div>
+                
+                    <div class="col">
+                        <div class="card h-100 pb-3 rounded-3 shadow py-3">
+                            <div>
+                                <img src="img/user-3.png" width="149px" height="149px" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">DJ Boby</h5>
+                                <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            </div>
+                            <div style="color: #E77C40;">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a href="#" class="text-primary fw-bold" style="text-decoration: none;">Brazil</a>
+                            <h6>Singer</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frequently Asked Section -->
+        <section class="frequently-asked">
+            <div class="container">
+                <h1 class="text-center my-5">Frequently Asked <span>Questions</span></h1>
+                <div class="row my-5 col-sm-12">
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="img/faq.png"  alt="" srcset="">
+                    </div>
+                    
+                    <div class="col-md-8 col-sm-12">
+                        <div class="accordion align-items-center" id="accordionExample">
+                            <div class="accordion-item my-3 border-2 rounded-2">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne"><h5>What are the most important things I should know about riding a bike?</h5>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Safety First!</strong> Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of
+                                        “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item my-3 border-2 border-top rounded-2">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h5>How can I tell if my helmet is old and I need a
+                                        new one?</h5>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Bear in mind that if the helmet did its job most people would tell you that they did not even hit their head, or did not
+                                        hit their head that hard. And the thin shells on most helmets now tend to hide any dents in the foam. But if you can see
+                                        marks on the shell or measure any foam crush at all, replace the helmet.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item my-3 border-2 border-top rounded-2">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h5>My bike has been in storage is it safe to ride?</h5>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>The bottom line:</strong> Leaving your bike outside for a day or two won't do major damage. You may see signs of rust after a
+                                        week of neglect. After one month in bad conditions, your beloved bike parts will start to degrade.Leaving your bike outside for a day or two won't do major damage. You may see signs of rust after a week of neglect. After one month in bad conditions, your beloved bike parts will start to degrade.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item my-3 border-2 border-top rounded-2">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><h5>What rules should I follow when riding my bike?</h5>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <b>The most important rules to consider while riding a bike are:</b><br>
+                                        
+                                        <strong>Wear a Helmet:</strong> No matter what, always wear a helmet. Invest in a good quality helmet which fits you properly. Investing
+                                        in a good helmet goes a long way. <br>
+                                        <strong>Proper riding gear:</strong> Safety comes first, if you're going for long rides, always wear proper riding gear to avoid any
+                                        untoward incident. <br>
+                                        <strong>Don't be a squid:</strong> Ride safely and responsibly. Cutting lanes, overspeeding and reckless driving aren't cool, they're
+                                        madness. <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Bikers in the World -->
+        <section class="container best-biker my-bg-color text-center">
+            <h1>Best <span>Bikers</span> in the World</h1>
+            <div class="row">
+                <!-- rider-1 -->
+                <div class="col-lg-4 col-md-6 col-12 text-center">
+                    <div class="card h-100 pb-3 rounded-3 shadow p-3 border-0">
+                        <img src="img/biker/biker_1.jpg" class="card-img-top img-fluid rounded-3" style="height: 350px;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Giacomo Agostini</h5>
+                            <p class="card-text">Giacomo Agostini (Italian pronunciation: [ˈdʒaːkomo aɡoˈstiːni]; born 16 June 1942) is an Italian multi-time world
+                            champion Grand Prix motorcycle road racer.</p>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-12 text-center">
+                    <!-- carousel strated -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <!-- rider-2  -->
+                                <div class="card h-100 pb-3 rounded-3 shadow p-3 border-0">
+                                    <img src="img/biker/biker_2.jpg" class="card-img-top img-fluid rounded-3" style="height: 350px"; alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ángel Nieto</h5>
+                                        <p class="card-text">Giacomo Agostini (Italian pronunciation: [ˈdʒaːkomo aɡoˈstiːni]; born 16 June 1942) is an Italian multi-time world
+                                        champion Grand Prix motorcycle road racer.</p>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-primary">Read More</button>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <!-- rider-3  -->
+                                <div class="card d-inline-block shadow-lg">
+                                    <div class="card h-100 pb-3 rounded-3 shadow p-3 border-0">
+                                        <img src="img/biker/biker_3.jpg" class="card-img-top img-fluid rounded-3" style="height: 350px"; alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Valentino Rossi</h5>
+                                            <p class="card-text">Giacomo Agostini (Italian pronunciation: [ˈdʒaːkomo aɡoˈstiːni]; born 16 June 1942) is an Italian multi-time world
+                                            champion Grand Prix motorcycle road racer.</p>
+                                        </div>
+                                        <button type="button" class="btn btn-outline-primary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <!-- rider-4  -->
+                                <div class="card d-inline-block shadow-lg">
+                                    <div class="card h-100 pb-3 rounded-3 shadow p-3 border-0">
+                                        <img src="img/biker/biker_4.jpg" class="card-img-top img-fluid rounded-3" style="height: 350px"; alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Mike Hailwood</h5>
+                                            <p class="card-text">Giacomo Agostini (Italian pronunciation: [ˈdʒaːkomo aɡoˈstiːni]; born 16 June 1942) is an Italian multi-time world
+                                            champion Grand Prix motorcycle road racer.</p>
+                                        </div>
+                                        <button type="button" class="btn btn-outline-primary">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <!-- rider-5  -->
+                                <div class="card d-inline-block shadow-lg">
+                                    <div class="card h-100 pb-3 rounded-3 shadow p-3 border-0">
+                                        <img src="img/biker/biker_5.jpg" class="card-img-top img-fluid rounded-3" style="height: 350px"; alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Carlo Ubbiali</h5>
+                                            <p class="card-text">Giacomo Agostini (Italian pronunciation: [ˈdʒaːkomo aɡoˈstiːni]; born 16 June 1942) is an Italian multi-time world
+                                            champion Grand Prix motorcycle road racer.</p>
+                                        </div>
+                                        <button type="button" class="btn btn-outline-primary">Read More</button>
+                                    </div>
+                            
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- rider-6 -->
+                <div class="col-lg-4 col-md-6 col-12 text-center">
+                    <div class="card h-100 pb-3 rounded-3 shadow p-3 border-0">
+                        <img src="img/biker/biker_6.jpeg" class="card-img-top img-fluid rounded-3" style="height: 350px"; alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Marc Márquez</h5>
+                            <p class="card-text">Giacomo Agostini (Italian pronunciation: [ˈdʒaːkomo aɡoˈstiːni]; born 16 June 1942) is an Italian multi-time world
+                            champion Grand Prix motorcycle road racer.</p>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bike News Section -->
+        <section class="container new-bike-news my-bg-color text-center my-5">
+            <h1>New <span>Bike News</span></h1>
+            <div class="card mb-3">
+                <div class="row ms-2">
+                    <div class="col-lg-6 row align-items-center">
+                        <div class="col-md-4">
+                            <img src="img/bike/bike_1.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 text-start">
+                            <div class="card-body">
+                                <h5 class="card-title">This Bobber Is A Royal Enfield Interceptor 650 In Disguise</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 row align-items-center">
+                        <div class="col-md-4">
+                            <img src="img/bike/bike_2.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 text-start">
+                            <div class="card-body">
+                                <h5 class="card-title">EXCLUSIVE: Future Bajaj Motorcycles To Get Variable Valve Actuation</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 row align-items-center">
+                        <div class="col-md-4">
+                            <img src="img/bike/bike_3.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 text-start">
+                            <div class="card-body">
+                                <h5 class="card-title">EXCLUSIVE: Ultraviolette Reveals F77 Availability And Service Strategy</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 row align-items-center">
+                        <div class="col-md-4">
+                            <img src="img/bike/bike_4.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8 text-start">
+                            <div class="card-body">
+                                <h5 class="card-title">Revolt RV1 Under Development, To Replace The RV300</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main section end -->
+
+    <!-- footer section starting -->
+    <footer>
+        <section class="mt-5 bg-dark">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-9 col-sm-12 text-white">
+                        <div class="my-3">
+                            <a class="text-white me-3 text-decoration-none" href="#">Download Now</a>
+                            <a class="text-white text-decoration-none" href="#">License</a>
+                        </div>
+                        <div class="my-3">
+                            <a class="text-white me-3 text-decoration-none" href="#">About</a>
+                            <a class="text-white me-3 text-decoration-none" href="#">Features</a>
+                            <a class="text-white me-3 text-decoration-none" href="#">Pricing</a>
+                            <a class="text-white me-3 text-decoration-none" href="#">Careers</a>
+                            <a class="text-white me-3 text-decoration-none" href="#">Help</a>
+                            <a class="text-white me-3 text-decoration-none" href="#">Privacy</a>
+                            <a class="text-white me-3 text-decoration-none" href="#">Policy</a>
+                        </div>
+                        <p>© 2020 bike. All rights reserved</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-white">
+                        <p>Get the App</p>
+                        <div class="my-3">
+                            <img src="img/app-store.png" alt="">
+                        </div>
+                        <div class="my-3">
+                            <img src="img/google-play.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
