@@ -16,8 +16,7 @@
 }
 
 hr{
-    width: 58.5px;
-    border: 1px solid #E76F51;
+    border: 1px solid #000000;
     margin: auto;
 }
 
@@ -31,4 +30,8 @@ h1 span{
 
 .bike-grayscale img{
     filter: grayscale(100%);
+}
+
+.engine-sec-bg-color{
+    background-color: rgba(218, 212, 212, 0.589);
 }
