@@ -32,6 +32,10 @@ h1 span{
     filter: grayscale(100%);
 }
 
+.form-bg-info{
+    background-color: #fceae8;
+}
+
 .engine-sec-bg-color{
     background-color: rgba(218, 212, 212, 0.589);
 }
